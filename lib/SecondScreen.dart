@@ -79,8 +79,7 @@ class _SecondScreenState extends State<SecondScreen> {
                 width: size.width,
                 decoration: const BoxDecoration(
                   image: DecorationImage(
-                    image: NetworkImage(
-                        "https://upload.wikimedia.org/wikipedia/commons/a/a9/University_of_Otago.jpg"),
+                    image: AssetImage("Assets/Images/U1.jpeg"),
                     fit: BoxFit.fill,
                   ),
                 ),
@@ -481,8 +480,8 @@ class _SecondScreenState extends State<SecondScreen> {
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(20),
               image: const DecorationImage(
-                image: NetworkImage(
-                    "https://miro.medium.com/max/1024/0*iRgiB6y8atMchG0o.jpg"),
+                image: AssetImage(
+                    "Assets/Images/Map.jpeg"),
                 fit: BoxFit.fill,
               ),
             ),
@@ -509,8 +508,7 @@ class _SecondScreenState extends State<SecondScreen> {
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(10),
                         image: const DecorationImage(
-                          image: NetworkImage(
-                              "https://images.unsplash.com/photo-1597223557154-721c1cecc4b0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aHVtYW4lMjBmYWNlfGVufDB8fDB8fA%3D%3D&w=1000&q=80"),
+                          image: AssetImage("Assets/Images/F1.jpeg"),
                           fit: BoxFit.fill,
                         ),
                       ),
@@ -530,8 +528,7 @@ class _SecondScreenState extends State<SecondScreen> {
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(10),
                         image: const DecorationImage(
-                          image: NetworkImage(
-                              "https://images.unsplash.com/photo-1605462863863-10d9e47e15ee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGZhY2UlMjBtYW58ZW58MHx8MHx8&w=1000&q=80"),
+                          image: AssetImage("Assets/Images/F2.jpeg"),
                           fit: BoxFit.fill,
                         ),
                       ),
@@ -554,8 +551,7 @@ class _SecondScreenState extends State<SecondScreen> {
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(10),
                         image: const DecorationImage(
-                          image: NetworkImage(
-                              "https://i.pinimg.com/474x/30/bc/74/30bc74c40ec71c440c9c11202772edb9.jpg"),
+                          image: AssetImage("Assets/Images/F3.jpeg"),
                           fit: BoxFit.fill,
                         ),
                       ),
@@ -578,8 +574,7 @@ class _SecondScreenState extends State<SecondScreen> {
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(10),
                         image: const DecorationImage(
-                          image: NetworkImage(
-                              "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?cs=srgb&dl=pexels-italo-melo-2379005.jpg&fm=jpg"),
+                          image: AssetImage("Assets/Images/F4.jpg"),
                           fit: BoxFit.fill,
                         ),
                       ),
